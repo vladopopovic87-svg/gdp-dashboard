@@ -20,6 +20,7 @@ def get_gdp_data():
     reading from an HTTP endpoint instead of a file, it's a good idea to set
     a maximum age to the cache with the TTL argument: @st.cache_data(ttl='1d')
     """
+    "dodajem drugu promjenu"
 
     # Instead of a CSV on disk, you could read from an HTTP endpoint here too.
     DATA_FILENAME = Path(__file__).parent/'data/gdp_data.csv'
